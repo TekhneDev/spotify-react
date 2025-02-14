@@ -1,5 +1,3 @@
-import React from "react";
-
 const App2 = () => {
     return <div>App2</div>
 };
@@ -34,3 +32,29 @@ export default App2;
 
 // Empty tag in React call Fragment
 
+// Components receive "props" (parametros/argumentos)
+
+ /* {items === 5 ? (
+          <>
+            <SingleItem />
+            <SingleItem />
+            <SingleItem />
+            <SingleItem />
+            <SingleItem />
+          </>
+        ) : (
+          <>
+            <SingleItem />
+            <SingleItem />
+            <SingleItem />
+            <SingleItem />
+            <SingleItem />
+            <SingleItem />
+            <SingleItem />
+            <SingleItem />
+            <SingleItem />
+            <SingleItem />
+          </>
+        )} */
+
+// Spread Operator ...
