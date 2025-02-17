@@ -11,7 +11,7 @@ const Artist = () => {
 
       <Link to="/song/1">
         <FontAwesomeIcon
-          className="single-item__icon--artist"
+          className="single-item__icon single-item__icon--artist"
           icon={faCirclePlay}
         />
       </Link>
