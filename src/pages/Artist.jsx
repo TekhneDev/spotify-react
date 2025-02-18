@@ -15,7 +15,9 @@ const Artist = () => {
         <h2 className="artist_title">Jorge & Mateus</h2>
       </div>
 
-      <div className="artist__body"></div>
+      <div className="artist__body">
+        <h2>Populares</h2>
+      </div>
 
       <Link to="/song/1">
         <FontAwesomeIcon
