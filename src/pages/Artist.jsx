@@ -1,6 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCirclePlay } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
+import SongList from "../components/SongList";
 
 const Artist = () => {
   return (
@@ -17,6 +18,8 @@ const Artist = () => {
 
       <div className="artist__body">
         <h2>Populares</h2>
+
+        <SongList></SongList>
       </div>
 
       <Link to="/song/1">
