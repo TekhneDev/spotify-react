@@ -8,6 +8,8 @@ const SongItem = () => {
       <img src="https://i.scdn.co/image/ab67616d00001e022774b00531d558bc19e12a24" alt="Imagem da Música X"></img>
 
       <p>Nome Música</p>
+
+      <p>02:30</p>
     </Link>
   );
 };
