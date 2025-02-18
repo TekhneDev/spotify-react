@@ -1,5 +1,15 @@
+import { Link } from "react-router-dom";
+
 const SongItem = () => {
-  return <div className="song-item">SongItem</div>;
+  return (
+    <Link to="/song/1" className="song-item">
+      <p>1</p>
+
+      <img src="https://i.scdn.co/image/ab67616d00001e022774b00531d558bc19e12a24" alt="Imagem da Música X"></img>
+
+      <p>Nome Música</p>
+    </Link>
+  );
 };
 
 export default SongItem;

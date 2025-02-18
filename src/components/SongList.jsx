@@ -1,6 +1,8 @@
+import SongItem from "./SongItem";
+
 const SongList = () => {
   return <div className="song-list">
-    SongList
+    <SongItem></SongItem>
   </div>;
 };
 
