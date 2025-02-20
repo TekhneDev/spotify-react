@@ -7,6 +7,8 @@ const SongList = () => {
     <SongItem></SongItem>
     <SongItem></SongItem>
     <SongItem></SongItem>
+
+    <p className="song-list__see-more">Ver mais</p>
   </div>;
 };
 
