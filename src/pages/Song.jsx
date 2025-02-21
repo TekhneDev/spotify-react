@@ -10,7 +10,11 @@ const Song = () => {
         </div>
       </div>
 
-      <div className="song__bar"></div>
+      <div className="song__bar">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
     </div>
   );
 };
