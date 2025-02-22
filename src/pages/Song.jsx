@@ -11,7 +11,9 @@ const Song = () => {
       </div>
 
       <div className="song__bar">
-        <div className="song__artist-image"></div>
+        <div className="song__artist-image">
+          <img src="https://i.scdn.co/image/ab67616100005174b4c07f06044ca6f1a8548192" alt="Imagem do Artista Y"></img>
+        </div>
         <div></div>
         <div></div>
       </div>
